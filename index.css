@@ -1,0 +1,151 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #09090bff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: #dfdfdfff;
+  font-weight: 900;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 30px; 
+  background-color: #09090bff;
+}
+
+.personal-details{
+  margin-bottom: 20px;
+  border: solid 1px #27272aff;
+  width: 100%;
+  padding: 16px; 
+  border-radius: 20px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 50px; 
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.name {
+  font-size: 24px; 
+  font-weight: bold;
+}
+
+.info {
+  margin-top: 10px;
+}
+
+.info-item {
+  font-size: 16px; 
+  font-weight: bold;
+  color: #22c55e;
+  margin-top: 8px;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.section-title {
+  font-size: 24px; 
+  font-weight: bold;
+  margin: 0;
+}
+
+.date-time .info-item {
+  font-size: 16px;
+  font-weight: bold;
+  color: #22c55e;
+  margin-top: 8px;
+}
+
+.utc-time {
+  margin-top: 10px;
+}
+
+.value {
+  font-family: monospace;
+  color: #dfdfdfff;
+}
+
+.github-link {
+  font-size: 16px; 
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.github-link .icon {
+  margin-right: 5px;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    padding: 52px; 
+  }
+
+ .name{
+    font-size: 60px;
+    font-weight: 900;
+  }
+
+  .info-item{
+    font-size: 30px;
+  }
+
+  .personal-details,
+  .date-time {
+    width: 50%;
+    padding: 32px; 
+  }
+
+  .profile-image {
+    width: 150px; 
+    height: 150px; 
+  }
+
+  .github-link{
+    font-size: 20px;
+  }
+}
