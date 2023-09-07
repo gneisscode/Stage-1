@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function updateDateTime() {
     const currentDate = new Date();
-    const currentUTCTime = currentDate.toISOString(); 
+    const currentUTCTime = currentDate.getTime(); // Get the UTC time in milliseconds
     const daysOfWeek = [
       "Sunday",
       "Monday",
